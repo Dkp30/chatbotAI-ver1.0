@@ -17,7 +17,7 @@ function App() {
 
     const fetchBotResponse = async () => {
         const { data } = await axios.post(
-            "http://localhost:4000/",
+            "https://chatbot-app-bhk1.onrender.com",
             { input },
             {
                 headers: {

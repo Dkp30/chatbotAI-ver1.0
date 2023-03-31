@@ -12,7 +12,7 @@ app.use(express.json());
 app.get("/", async (req, res) => {
     res.status(200).send({
         message:
-            "This is FROZEN AI APP server url, please visit https://chatgpt-ai-app-od21.onrender.com",
+            "This is chatbot AI ver 1.0 server url, please visit https://chatbot-app-bhk1.onrender.com/",
     });
 });
 
